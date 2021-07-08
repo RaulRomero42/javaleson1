@@ -26,7 +26,8 @@ public class Wallet{
         return tieneLimite;
     }
 
-    public boolean establecerLimite(int value){
+   
+    public boolean establecerMeta(int value){
 
         if (value ==0){
             meta = value;
@@ -55,6 +56,7 @@ public class Wallet{
             return "No se puede superar el limite " + CAPACIDAD_MAXIMA;
         }
             saldo += value;  // saldo = saldo + value
+            if(verificarMeta()){System.out.println("Has cumplido la meta!");}
             return "Transaccion exitosa, nuevo saldo " + saldo;
     }
 
@@ -77,5 +79,5 @@ public class Wallet{
             return "No tiene saldo suficiente";
     }
 
-    public String comparaCuneta    
+    
 }
