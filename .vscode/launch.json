@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch VistaUser",
+            "request": "launch",
+            "mainClass": "views.VistaUser",
+            "projectName": "Wallet_92949456"
+        },
+        {
+            "type": "java",
+            "name": "Launch Vista",
+            "request": "launch",
+            "mainClass": "views.Vista",
+            "projectName": "Wallet_92949456"
+        },
+        {
+            "type": "java",
+            "name": "Launch HolaQuien",
+            "request": "launch",
+            "mainClass": "HolaQuien",
+            "projectName": "Wallet_92949456"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
